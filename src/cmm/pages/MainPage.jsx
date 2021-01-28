@@ -4,6 +4,7 @@ import axios from 'axios'
 import { debounce } from 'throttle-debounce'
 import { useHistory, Link } from 'react-router-dom';
 
-export const UserUpdatePage = () => {
-    return (<></>)
+
+export const MainPage = () =>{
+    return (<><h1>메인페이지</h1></>)
 }
