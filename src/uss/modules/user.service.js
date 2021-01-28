@@ -1,17 +1,11 @@
-export const userService={
-    register, list, detail, login, logout, update, remove
-
-}
-
-const register = user =>{
-    const requestOption ={
+const register = user => {
+    const requestOption = {
         method: `POST`,
         headers: {},
         body: JSON.stringify(user)
     }
     return fetch(``, requestOption).then()
 }
-
 const list = count => {
     return fetch(``)
 }
@@ -30,6 +24,7 @@ const update = user => {
 const remove = user => {
     return fetch(``)
 }
+
 export const userService = {
     register, list, detail, login, logout, update, remove
 }
